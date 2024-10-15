@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Michelle Johnson - DevOps Engineer</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #4a90e2;
+            color: white;
+            text-align: center;
+            padding: 50px 0;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            font-size: 3.5em;
+            margin: 0;
+            letter-spacing: 2px;
+        }
+
+        header h2 {
+            font-size: 1.5em;
+            margin: 10px 0;
+            font-weight: lighter;
+        }
+
+        header p {
+            margin: 5px 0;
+            font-size: 1.2em;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 50px auto;
+            padding: 0 20px;
+        }
+
+        section {
+            margin-bottom: 50px;
+        }
+
+        h2 {
+            font-size: 2.5em;
+            color: #333;
+            border-left: 5px solid #4a90e2;
+            padding-left: 15px;
+            margin-bottom: 20px;
+        }
+
+        .skills, .experience, .education, .languages, .projects, .organizations {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        .card {
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            position: relative;
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .work-item h3, .work-item p {
+            margin: 0 0 10px;
+        }
+
+        .work-item p {
+            font-size: 1em;
+            color: #666;
+        }
+
+        .card h3 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+            color: #4a90e2;
+        }
+
+        .card ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .card ul li {
+            padding: 10px;
+            background-color: #f4f4f4;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background-color: #4a90e2;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 1.2em;
+            box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Michelle Johnson</h1>
+        <h2>AWS Certified DevOps Engineer</h2>
+        <p>Email: michelle@novoresume.com | Phone: 123 444 555 | Location: Chicago, IL</p>
+        <p><a href="https://github.com/michellejohnson" style="color: white; text-decoration: none;">github.com/michellejohnson</a></p>
+    </header>
+
+    <div class="container">
+        <section class="experience">
+            <h2>Work Experience</h2>
+            <div class="work-item card">
+                <h3>DevOps Engineer | Pear Computers Inc.</h3>
+                <p>03/2018 - Present</p>
+                <ul>
+                    <li>Updated company codes, automated security systems, and reduced breaches by 60%.</li>
+                    <li>Designed new architectures on Google Cloud Platform for cloud solution migration.</li>
+                    <li>Built infrastructure using Terraform, Packer, Ansible, coordinated with GitLab.</li>
+                    <li>Reduced monthly costs by $4,000 through server and database optimization.</li>
+                    <li>Headed an Agile team deploying SaaS software with over 1 million users.</li>
+                </ul>
+            </div>
+            <div class="work-item card">
+                <h3>DevOps Engineer | Minisoft Original Software</h3>
+                <p>02/2015 - 01/2018</p>
+                <ul>
+                    <li>Maintained a 99% uptime of a network of 20+ Unix servers.</li>
+                    <li>Automated builds and deployments with Jenkins, reducing human error and accelerating processes.</li>
+                    <li>Created and maintained CI/CD pipelines, reducing manual work by 70%.</li>
+                    <li>Managed Kubernetes-based local deployments, enhancing containerized services.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="skills">
+            <h2>Technical Skills</h2>
+            <div class="card">
+                <h3>Systems Administration</h3>
+                <ul>
+                    <li>RedHat, Enterprise Linux, Ubuntu, CentOS, Fedora</li>
+                    <li>Bash Shell, Ansible</li>
+                </ul>
+            </div>
+            <div class="card">
+                <h3>Cloud Infrastructure</h3>
+                <ul>
+                    <li>AWS (IaaS, PaaS, SaaS), EC2, Auto Scaling, ELB</li>
+                    <li>Route 53, Amazon S3</li>
+                </ul>
+            </div>
+            <div class="card">
+                <h3>Servers & Networking</h3>
+                <ul>
+                    <li>Apache HTTP Server, Load Balancing, Failover</li>
+                    <li>NFS, Cron, MySQL</li>
+                    <li>Nagios, Network Monitoring Tools</li>
+                </ul>
+            </div>
+            <div class="card">
+                <h3>Containerization</h3>
+                <ul>
+                    <li>Docker, Kubernetes, AWS ECR, Portainer</li>
+                    <li>Terraform, Ansible, Jenkins</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="education">
+            <h2>Education</h2>
+            <div class="card">
+                <h3>Master's in Computer Science</h3>
+                <p>University of California, Berkeley | 2012 - 2014</p>
+            </div>
+        </section>
+
+        <section class="projects">
+            <h2>Personal Projects</h2>
+            <div class="card">
+                <ul>
+                    <li>Microsoft Certified Solutions Developer</li>
+                    <li>Google Cloud Certified - Associate Cloud Engineer</li>
+                    <li>AWS Certification - Architecture and Development</li>
+                    <li>AWS Certified SysOps Admin - Associate</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="languages">
+            <h2>Languages</h2>
+            <div class="card">
+                <ul>
+                    <li>English: Native or Bilingual Proficiency</li>
+                    <li>Italian: Professional Working Proficiency</li>
+                    <li>Spanish: Full Professional Proficiency</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="organizations">
+            <h2>Organizations & Communities</h2>
+            <div class="card">
+                <ul>
+                    <li>Docker Community</li>
+                    <li>Association for DevOps Professionals (ADoP)</li>
+                    <li>Agile Alliance</li>
+                    <li>Cloud Native Computing Foundation (CNCF)</li>
+                </ul>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Michelle Johnson | <a href="mailto:michelle@novoresume.com">Contact Me</a></p>
+    </footer>
+
+</body>
+</html>
